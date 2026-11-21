@@ -16,7 +16,7 @@ O repositório não contém uma ferramenta nem um procedimento de acesso a servi
 
 ## Como ler os registos
 
-Num teste próprio, um erro de ligação e uma autenticação recusada são situações diferentes. Regista a etapa e a mensagem resumida.
+Num teste próprio, um erro de ligação e uma autenticação recusada são situações diferentes. Um tempo de espera esgotado aponta para a etapa da ligação. Uma mensagem de autenticação recusada indica que a ligação chegou ao ponto de verificar a identidade. Ao descrever o resultado, indica até onde chegaste e reproduz apenas a mensagem genérica.
 
 Para localizar uma alteração, usa a data e a mensagem do commit no histórico Git.
 
